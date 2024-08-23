@@ -1,5 +1,6 @@
 .app{
   text-align: center;
+  background-color: bisque;
 }
 .tasks{
   display: flex;

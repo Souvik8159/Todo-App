@@ -1,10 +1,12 @@
 .inputBox{
     width: 50%;
+    height: 25px;
     border-top: none;
     border-left: none;
 }
 .addbutton{
     background-color: rgb(193, 28, 199);
+    height: 29px;
     color: aliceblue;
 }
 .inputdiv{

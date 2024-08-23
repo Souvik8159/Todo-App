@@ -1,8 +1,10 @@
 const mongoose=require('mongoose');
 
+
 const connectDB=async()=>{
     try{
-        const conn=await mongoose.connect(`mongodb://0.0.0.0:27017/Todo`,{
+        
+        const conn=await mongoose.connect(process.env.MONGO_URL,{
             useNewUrlParser:true,
         })
         console.log(`Database connected ${conn.connection.host}`);
@@ -13,3 +15,4 @@ const connectDB=async()=>{
     }
 }
 module.exports = connectDB;
+// D:\Rsesume Project\ToDo-webApp-main\frontend\node_modules
